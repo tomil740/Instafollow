@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/theMenu">
+
+    <item
+        android:id="@+id/followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_join_full_24"
+        android:title="@string/followers" />
+    <item
+        android:id="@+id/only_followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_join_left_24"
+        android:title="@string/only_followers" />
+    <item
+        android:id="@+id/only_following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_join_right_24"
+        android:title="@string/only_following" />
+    <item
+        android:id="@+id/mutual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_join_inner_24"
+        android:title="@string/mutual" />
+</menu>

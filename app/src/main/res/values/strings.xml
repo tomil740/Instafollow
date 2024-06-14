@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Instafollow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Account Name</string>
+    <string name="link">link to account</string>
+    <string name="followers">Followers</string>
+    <string name="only_following">Only Following</string>
+    <string name="only_followers">Only Followers</string>
+    <string name="mutual">Mutual</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainnav"
+    app:startDestination="@id/followers">
+
+    <fragment
+        android:id="@+id/followers"
+        android:name="com.example.instafollow.followers.Followers"
+        android:label="fragment_followers"
+        tools:layout="@layout/fragment_followers" >
+        <action
+            android:id="@+id/action_followers_to_details"
+            app:destination="@id/details" />
+    </fragment>
+    <fragment
+        android:id="@+id/details"
+        android:name="com.example.instafollow.details.Details"
+        android:label="Details" >
+        <action
+            android:id="@+id/action_details_to_followers"
+            app:destination="@id/followers" />
+        <argument
+            android:name="item"
+            app:argType="com.example.instafollow.network.AccountDetails" />
+    </fragment>
+</navigation>
